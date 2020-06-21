@@ -5,7 +5,7 @@
 # Date : 2020-06-20
 # Creater : tunealog
 
-# Fuction Name - chat
+# Function Name - chat
 def chat():
     print("Jack : Hello I'm Jack")
     print("Mary : Hello I'm Mary")
@@ -15,7 +15,7 @@ def chat():
 # Mary : Hello I'm Mary
 chat()
 
-# Fuction Name - para
+# Function Name - para
 
 
 def para(name1, name2, age):
@@ -32,7 +32,7 @@ para("James", "Honey", 20)
 para("Robert", "Bunny", 30)
 
 
-# Fuction Name - sum
+# Function Name - sum
 def sum(a, b):
     result = a+b
     return result
