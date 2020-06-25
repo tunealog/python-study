@@ -21,6 +21,10 @@ print(z)
 #[1, 2, 3, 4, 'a', 'b', 'c', 'd']
 print(x+y)
 
+#[1, 2, 3, 4, 'a', 'b', 'c', 'd']
+# x.extend(y)
+# print(x)
+
 # 1
 print(x[0])
 
@@ -47,6 +51,19 @@ print(a)
 c = sorted(a)
 print(c)
 
+# .sort()
+#[1, 2, 3, 4]
+a.sort()
+print(a)
+
+#[4, 3, 2, 1]
+a.reverse()
+print(a)
+
+# []
+# a.clear()
+# print(a)
+
 # sum
 # 10
 d = sum(a)
@@ -70,3 +87,26 @@ print(2 in a)
 
 # False
 print(5 in a)
+
+
+# Advenced List
+# Added Date : 2020-06-26
+
+subway = ["tunealog", "James", "Lily", "tunealog"]
+
+#['tunealog', 'James', 'Lily', 'Rocky']
+subway.append("Rocky")
+print(subway)
+
+#['tunealog', 'Rose', 'James', 'Lily', 'Rocky']
+subway.insert(1, "Rose")
+print(subway)
+
+# Pick that end of list
+# Rocky
+#['tunealog', 'Rose', 'James', 'Lily', 'tunealog']
+print(subway.pop())
+print(subway)
+
+# 2
+print(subway.count("tunealog"))
