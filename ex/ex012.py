@@ -23,9 +23,14 @@ print(x["age"])
 
 # Hello
 print(x[0])
+print(x.get(0))
 
 # Hi
 print(x[1])
+print(x.get(1))
+
+# Thanks
+print(x.get(3, "Thanks"))
 
 # True
 print("age" in x)
@@ -57,4 +62,17 @@ print(x)
 
 #{0: 'bye', 1: 'Hi', 'name': 'tunealog', 'age': 20, 'city': 'Newyork'}
 x["city"] = "Newyork"
+print(x)
+
+# Advenced Dictionary
+# Added Date : 2020-06-26
+
+#{1: 'Hi', 'name': 'tunealog', 'age': 20, 'city': 'Newyork'}
+del x[0]
+print(x)
+
+#dict_items([(1, 'Hi'), ('name', 'tunealog'), ('age', 20), ('city', 'Newyork')])
+print(x.items())
+
+x.clear()
 print(x)
