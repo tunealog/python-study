@@ -62,3 +62,15 @@ print(2 in a)
 
 # False
 print(5 in a)
+
+
+# Advenced Dictionary
+# Added Date : 2020-06-26
+
+# Tuple is fast than List, Dictionary
+# Tuple is fixed(Can't fix)
+
+# Tuple Example
+
+(name, age, hobby) = "tunealog", 30, "Programing"
+print(name, age, hobby)
