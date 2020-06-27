@@ -3,7 +3,7 @@
 
 # Title : Tuple
 # Date : 2020-06-22
-# Creater : tunealog
+# Creator : tunealog
 
 # mutable vs immutable
 # List vs Tuple
@@ -64,7 +64,7 @@ print(2 in a)
 print(5 in a)
 
 
-# Advenced Dictionary
+# Advenced Tuple
 # Added Date : 2020-06-26
 
 # Tuple is fast than List, Dictionary
