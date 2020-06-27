@@ -41,3 +41,26 @@ elif x == 1:
     print("Good-07")
 else:
     print("Bye-07")
+
+# Advenced If
+# Added Date : 2020-06-27
+
+# Possible
+# if 0 < x < 1:
+
+# Scanner
+# x = input("text")
+
+# List in int
+a = 2
+b = [2, 4]
+if a in b:
+    print("Okay")
+
+# [1, 2, 3, 4, 5]
+students = [1, 2, 3, 4, 5]
+print(students)
+
+# [101, 102, 103, 104, 105]
+students = [i+100 for i in students]
+print(students)
