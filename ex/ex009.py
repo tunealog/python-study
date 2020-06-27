@@ -40,3 +40,12 @@ while l < 3:
 
     print("Mary : Hi Judy")
     l = l + 1
+
+# Advenced Loop
+# Added Date : 2020-06-27
+
+# for waiting_no in range(0, 5):
+# for waiting_no in range(5):
+for waiting_no in [0, 1, 2, 3, 4]:
+    print("Waiting No : {0}".format(waiting_no))
+    #print(f"Waiting No : {waiting_no}")
