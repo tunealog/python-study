@@ -3,7 +3,7 @@
 
 # Title : List
 # Date : 2020-06-21
-# Creater : tunealog
+# Creator : tunealog
 
 x = [1, 2, 3, 4]
 y = ['a', 'b', 'c', 'd']
@@ -94,11 +94,11 @@ print(5 in a)
 
 subway = ["tunealog", "James", "Lily", "tunealog"]
 
-#['tunealog', 'James', 'Lily', 'Rocky']
+#['tunealog', 'James', 'Lily', 'tunealog', 'Rocky']
 subway.append("Rocky")
 print(subway)
 
-#['tunealog', 'Rose', 'James', 'Lily', 'Rocky']
+#['tunealog', 'Rose', 'James', 'Lily', 'tunealog', 'Rocky']
 subway.insert(1, "Rose")
 print(subway)
 
