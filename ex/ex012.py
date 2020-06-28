@@ -1,9 +1,8 @@
 # Basic of Python
-# Project 1hour
 
 # Title : Dictionary
 # Date : 2020-06-22
-# Creater : tunealog
+# Creator : tunealog
 
 x = {
     0: "Hello",
@@ -74,5 +73,6 @@ print(x)
 #dict_items([(1, 'Hi'), ('name', 'tunealog'), ('age', 20), ('city', 'Newyork')])
 print(x.items())
 
+# {}
 x.clear()
 print(x)
