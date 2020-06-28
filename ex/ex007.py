@@ -1,9 +1,8 @@
 # Basic of Python
-# Project 1hour
 
 # Title : Function
 # Date : 2020-06-20
-# Creater : tunealog
+# Creator : tunealog
 
 # Function Name - chat
 def chat():
@@ -46,3 +45,71 @@ print(sum1)
 
 # 6
 print(sum2)
+
+# Advenced Function
+# Added Date : 2020-06-28
+
+
+def deposit(balance, money):
+    print(f"Deposit complete. Balance is {balance + money}dollors")
+    return balance + money
+
+
+def withdraw(balance, money):
+    if balance >= money:
+        print(f"Withdraw complete. Balance is {balance - money}dollors")
+        return balance - money
+    else:
+        print(f"Withdraw not complete. Balance is {balance}dollors")
+        return balance
+
+
+def withdraw_night(balance, money):
+    commission = 10
+    return commission, balance - money - commission
+
+
+balance = 0
+
+# Deposit complete. Balance is 100dollors
+balance = deposit(balance, 100)
+
+# Withdraw not complete. Balance is 0dollors
+# balance = withdraw(balance, 200)
+
+# Withdraw complete. Balance is 50dollors
+# balance = withdraw(balance, 50)
+
+commission, balance = withdraw_night(balance, 50)
+print(f"Commission is {commission}dollors. Balance is {balance}dollors")
+
+
+# Default parameter
+def profile_one(name, age=30, main_lang="Python"):
+    print(f"name: {name}\nage: {age}\nmain language: {main_lang}")
+
+
+profile_one("James")
+profile_one("Rocky")
+
+# Keyword parameter
+
+
+def profile_two(name, age, main_lang):
+    print(name, age, main_lang)
+
+
+profile_two(age=40, name="Tommy", main_lang="Java")
+
+# Mutabloe parameter
+
+
+def profile_three(name, age, *language):
+    print(f"name: {name}\nage: {age}")
+    for lang in language:
+        print(lang, end=" ")
+    print("\n")
+
+
+profile_three("James", 30, "Python", "Java", "C", "C++", "Javascript")
+profile_three("Paul", 35, "Python", "Java")
