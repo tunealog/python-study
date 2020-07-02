@@ -60,14 +60,20 @@ if wraith2.clocking == True:
 
 
 class NormalUnit:
-    def __init__(self, name, hp):
+    def __init__(self, name, hp, speed):
         self.name = name
         self.hp = hp
+        self.speed = speed
+
+    def move(self, location):
+        print("Unit moves")
+        print("{0} : Move to the {1} [Speed : {2}]"
+              .format(self.name, location, self.speed))
 
 
 class AttackUnit(NormalUnit):
-    def __init__(self, name, hp, damage):
-        NormalUnit.__init__(self, name, hp)
+    def __init__(self, name, hp, speed, damage):
+        NormalUnit.__init__(self, name, hp, speed)
         self.damage = damage
 
     def attack(self, location):
@@ -95,15 +101,53 @@ class Flyable:
 
 class FlyableAttackUnit(AttackUnit, Flyable):
     def __init__(self, name, hp, damage, flying_speed):
-        AttackUnit.__init__(self, name, hp, damage)
+        AttackUnit.__init__(self, name, hp, 0, damage)
         Flyable.__init__(self, flying_speed)
 
+    # def move(self, location):
+    #     print("Unit moves")
+    #     self.fly(self.name, location)
 
-firebat1 = AttackUnit("FireBat", 50, 16)
-firebat1.attack("West")
+# firebat1 = AttackUnit("FireBat", 50, 16)
+# firebat1.attack("West")
 
-firebat1.damaged(25)
-firebat1.damaged(25)
+# firebat1.damaged(25)
+# firebat1.damaged(25)
 
-valkyrie = FlyableAttackUnit("Valkyrie", 200, 6, 5)
-valkyrie.fly(valkyrie.name, "East")
+# valkyrie = FlyableAttackUnit("Valkyrie", 200, 6, 5)
+# valkyrie.fly(valkyrie.name, "East")
+
+# Overloading
+
+
+# vulture = AttackUnit("Vulture", 80, 10, 20)
+# battlecruiser = FlyableAttackUnit("BattleCruiser", 500, 25, 3)
+
+# vulture.move("West")
+# # battlecruiser.fly(battlecruiser.name, "East")
+# battlecruiser.move("East")
+
+# Pass
+# Added Date : 2020-07-03
+
+# class BuildingUnit(NormalUnit):
+#     def __init__(self, name, hp, location):
+#         pass
+
+# supply_depot = BuildingUnit("Supply Depot", 500, "West")
+
+# def game_start():
+#     print("[Alert] The new games beginning")
+
+# def game_over():
+#     pass
+
+# game_start()
+# game_over
+
+# Super
+class BuildingUnit(NormalUnit):
+    def __init__(self, name, hp, location):
+        # Unit.__init__(self, name, hp, 0)
+        super().__init__(name, hp, 0)  # Can't Using for Multiple Inheritance
+        self.location = location
