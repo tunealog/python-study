@@ -1,5 +1,4 @@
 # Basic of Python
-# Project
 
 # Title : Quiz(Function)
 # Date : 2020-06-28
