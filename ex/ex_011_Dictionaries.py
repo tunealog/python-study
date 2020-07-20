@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : Dictionary
+# Title : Dictionaries
 # Date : 2020-06-22
 # Creator : tunealog
 
@@ -8,7 +8,7 @@ x = {
     0: "Hello",
     1: "Hi",
     "name": "tunealog",
-    "age": 20,
+    "age": 20
 }
 
 #{0: 'Hello', 1: 'Hi', 'name': 'tunealog', 'age': 20}
@@ -63,12 +63,20 @@ print(x)
 x["city"] = "Newyork"
 print(x)
 
-# Advenced Dictionary
+# Dictionaries Add
 # Added Date : 2020-06-26
 
-#{1: 'Hi', 'name': 'tunealog', 'age': 20, 'city': 'Newyork'}
+# {1: 'Hi', 'name': 'tunealog', 'age': 20, 'city': 'Newyork'}
 del x[0]
 print(x)
+
+# {0: 'bye', 1: 'Hi', 'age': 20, 'city': 'Newyork'}
+# x.pop("name")
+# print(x)
+
+# {0: 'bye', 1: 'Hi', 'name': 'tunealog', 'age': 20}
+# x.popitem()
+# print(x)
 
 #dict_items([(1, 'Hi'), ('name', 'tunealog'), ('age', 20), ('city', 'Newyork')])
 print(x.items())
@@ -76,3 +84,7 @@ print(x.items())
 # {}
 x.clear()
 print(x)
+
+# NameError: name 'x' is not defined
+# del x
+# print(x)
