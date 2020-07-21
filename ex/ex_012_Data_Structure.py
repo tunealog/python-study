@@ -1,22 +1,21 @@
 # Basic of Python
-# Project 1hour
 
 # Title : Data Structure
 # Date : 2020-06-23
-# Creater : tunealog
+# Creator : tunealog
 
-# Fruit count program
-fruit = ["apple", "apple", "banana", "banana",
-         "kiwi", "orange", "orange", "orange"]
+# Fruit Count
+list_fruit = ["apple", "apple", "banana", "banana",
+              "kiwi", "orange", "orange", "orange"]
 
 # Dictinary
-d = {}
+dict_empty = {}
 
-for f in fruit:
-    if f in d:
-        d[f] = d[f] + 1
+for fruit in list_fruit:
+    if fruit in dict_empty:
+        dict_empty[fruit] = dict_empty[fruit] + 1
     else:
-        d[f] = 1
+        dict_empty[fruit] = 1
 
 # {'apple': 2, 'banana': 2, 'kiwi': 1, 'orange': 3}
-print(d)
+print(dict_empty)
