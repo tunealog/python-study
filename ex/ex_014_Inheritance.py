@@ -1,24 +1,19 @@
 # Basic of Python
-# Project 1hour
 
 # Title : Inheritance
 # Date : 2020-06-24
-# Creater : tunealog
+# Creator : tunealog
 
-# Class Name : person
 class Person:
 
-    #Function : __init__
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
-    #Function : say_hello
     def say_hello(self, to_name):
         print("Hello " + to_name + " I'm " +
               self.name + " " + self.age + " years old")
 
-    #Function : introduce
     def introduce(self):
         print("Hello I'm " +
               self.name + " " + self.age + " years old")
