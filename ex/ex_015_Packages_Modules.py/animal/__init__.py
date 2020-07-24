@@ -1,9 +1,8 @@
 # Basic of Python
-# Project 1hour
 
-# Title : Package and Modules
+# Title : Packages and Modules
 # Date : 2020-06-24
-# Creater : tunealog
+# Creator : tunealog
 
 # Call class "Dog" from dog.py file in .(Current Folder)
 from .dog import Dog

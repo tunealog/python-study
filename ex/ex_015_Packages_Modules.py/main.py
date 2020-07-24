@@ -1,16 +1,17 @@
 # Basic of Python
-# Project 1hour
 
-# Title : Package and Modules
+# Title : Packages and Modules
 # Date : 2020-06-24
-# Creater : tunealog
+# Creator : tunealog
 
 # Animal Package
 # Dog, Cat Modules
 # Dog, Cat Modules can say "Hi"
 
-# Call class "dog" from animal package
+# __init__.py
 from animal import *
+
+# Call class "dog" from animal package
 from animal import dog
 
 # Call class "cat" from animal package
