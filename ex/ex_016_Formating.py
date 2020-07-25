@@ -1,9 +1,8 @@
 # Basic of Python
-# Project 1hour
 
 # Title : Formating
 # Date : 2020-06-25
-# Creater : tunealog
+# Creator : tunealog
 
 # Method 1
 print("I'm %d years old" % 20)
