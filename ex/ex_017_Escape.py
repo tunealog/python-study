@@ -1,27 +1,36 @@
 # Basic of Python
-# Project 1hour
 
-# Title : Char Escape
+# Title : Escape
 # Date : 2020-06-25
-# Creater : tunealog
+# Creator : tunealog
 
 # In 1865, Nietzsche thoroughly studied
 # the works of Arthur Schopenhauer
 print("In 1865, Nietzsche thoroughly studied\nthe works of Arthur Schopenhauer")
 
-# \" or \' : " or '
-# I'm "tunealog"
+# Im "tunealog"
 print('Im "tunalog"')
-print("Im \"tunalog\"")
+
+# \" : "
+# I'm "tunealog"
+print("I'm \"tunalog\"")
+
+# \' : '
+# I'm 'tunealog'
+print("I'm \'tunalog\'")
 
 # \\ : \
+# C:\Users\tunealog\Desktop
 print("C:\\Users\\tunealog\\Desktop")
 
 # \r : Move Cursor
+# PineApple
 print("Red Apple\rPine")
 
 # \b : Back Space(1char delete)
+# RedApple
 print("Redd\bApple")
 
 # \t : Tab
+# Red     Apple
 print("Red\tApple")
