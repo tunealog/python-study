@@ -1,9 +1,8 @@
 # Basic of Python
-# Project 1hour
 
 # Title : Quiz(Formating, Escape)
 # Date : 2020-06-25
-# Creater : tunealog
+# Creator : tunealog
 
 
 # Quiz) Create a program for creating a password
