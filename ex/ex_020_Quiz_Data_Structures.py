@@ -1,7 +1,6 @@
 # Basic of Python
-# Project 1hour
 
-# Title : Quiz(Data structure)
+# Title : Quiz(Data Structures)
 # Date : 2020-06-27
 # Creator : tunealog
 
@@ -25,14 +24,14 @@
 # print(sample(first, 1))
 
 from random import *
-iD = []
+id = []
 for i in range(20):
-    iD.append(i+1)
+    id.append(i+1)
 
-chicken = sample(iD, 1)
+chicken = sample(id, 1)
 c = chicken.pop()
-iD.remove(c)
-coffee = sample(iD, 3)
+id.remove(c)
+coffee = sample(id, 3)
 print("-------- Win --------")
 print("Chicken : " + str(c))
 print("Coffee : " + str(coffee))
@@ -41,17 +40,17 @@ print("-- Congratulations --")
 # Feedback
 
 # Create list
-# iD = range(1, 21)
-# print(type(iD))
+# id = range(1, 21)
+# print(type(id))
 
 # Change type(Range to List)
-# iD = list(iD)
+# id = list(id)
 
 # Use Shuffle
-# shuffle(iD)
+# shuffle(id)
 
 # Pick Winners
-# winners = sample(iD, 4)
+# winners = sample(id, 4)
 
 # Formating
 # print("Chicken : {0}".format(winners[0]))
