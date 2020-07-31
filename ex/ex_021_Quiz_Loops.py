@@ -1,7 +1,6 @@
 # Basic of Python
-# Project 1hour
 
-# Title : Quiz(Loop)
+# Title : Quiz(Loops)
 # Date : 2020-06-27
 # Creator : tunealog
 
@@ -32,5 +31,5 @@ for count in passenger:
         oxCount += 1
     else:
         ox = " "
-    print(f"[{ox}] {count} passenger (driving time : {passengerTime}min")
+    print(f"[{ox}] {count} passenger (driving time : {passengerTime}min)")
 print(f"Total number of passengers : {oxCount} person")
