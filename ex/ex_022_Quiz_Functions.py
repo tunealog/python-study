@@ -1,10 +1,10 @@
 # Basic of Python
 
-# Title : Quiz(Function)
+# Title : Quiz(Functions)
 # Date : 2020-06-28
 # Creator : tunealog
 
-# Quiz) Standard weight program
+# Quiz) Standard weight calculate program
 #
 # Male : height(m) * height(m) * 22
 # FeMale : height(m) * height(m) * 21
@@ -26,7 +26,7 @@ def std_weight(height, gender):
 
 
 gender = "male"
-height = 175
+height = 185
 standardWeight = std_weight(height, gender)
 print(
     f"The standard weight for a {height}cm tall {gender} is {standardWeight}kg")
