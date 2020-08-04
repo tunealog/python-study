@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : A variety of Output Formats
+# Title : Output Formats
 # Date : 2020-06-29
 # Creator : tunealog
 
