@@ -1,15 +1,15 @@
 # Basic of Python
 
-# Title : Quiz(File)
+# Title : Quiz(Files)
 # Date : 2020-07-01
 # Creator : tunealog
 
 # Quiz) File Create Program
 #
-# Create the program to create a report file from 1 ~ 50 week
+# Create the program to create a report file from 1 ~ 50 weeks
 #
 # Rule1 : The report is 1time for a week
-# Rule2 : File name is Week 1.txt, Week 2.txt, ...
+# Rule2 : The file name is Week 1.txt, Week 2.txt, ...
 #
 # Example (Result):
 # - Week 3 Weekly Report
