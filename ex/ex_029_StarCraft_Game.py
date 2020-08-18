@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : StarCraft Game(Text)
+# Title : StarCraft Game
 # Date : 2020-07-03
 # Creator : tunealog
 
