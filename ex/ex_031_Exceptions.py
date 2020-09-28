@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : Exception
+# Title : Exceptions
 # Date : 2020-07-04
 # Creator : tunealog
 
