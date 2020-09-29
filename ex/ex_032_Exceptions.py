@@ -1,8 +1,9 @@
 # Basic of Python
 
-# Title : Exception (Advanced)
+# Title : Exceptions
 # Date : 2020-07-04
 # Creator : tunealog
+
 class BigNumberError(Exception):
     def __init__(self, msg):
         self.msg = msg
