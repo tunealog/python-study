@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : A variety of Functions
+# Title : Functions
 # Date : 2020-07-05
 # Creator : tunealog
 
