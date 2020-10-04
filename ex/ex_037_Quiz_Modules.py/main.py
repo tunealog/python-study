@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : Quiz(Module)
+# Title : Quiz(Modules)
 # Date : 2020-07-05
 # Creator : tunealog
 
@@ -16,6 +16,5 @@
 # This program is made by tunealog
 # github : https://github.com/tunealog
 
-def sign():
-    print("This program is made by tunealog")
-    print("github : https://github.com/tunealog")
+import byme
+byme.sign()
