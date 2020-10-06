@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : Package
+# Title : Packages
 # Date : 2020-07-05
 # Creator : tunealog
 
