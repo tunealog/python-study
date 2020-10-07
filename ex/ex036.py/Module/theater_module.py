@@ -1,6 +1,6 @@
 # Basic of Python
 
-# Title : Module(2nd)
+# Title : Modules
 # Date : 2020-07-04
 # Creator : tunealog
 
