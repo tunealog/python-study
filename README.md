@@ -22,6 +22,7 @@
 12. Data_Structures
 13. Class_Inheritance
 14. Inheritance
+15. Packages_Modules
 16. Formating
 17. Escape
 18. Quiz_Formating_Escape
@@ -40,5 +41,7 @@
 31. Exceptions
 32. Exceptions
 33. Quiz_Exceptions
+34. Modules_Packages
 35. Functions
 36. Functions
+37. Quiz_Modules
