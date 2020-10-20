@@ -1,7 +1,7 @@
 # Python Tutorials - Example Codes
 ![python-logo-master-v3-TM](https://user-images.githubusercontent.com/62274922/96355547-b0087480-111d-11eb-9815-45dd4d7026b3.png)
 ### 소개
-이 레파지토리는 파이썬 공부를 위한 예제 코드로 구성되어있습니다.
+본 레파지토리는 파이썬 공부를 위한 예제 코드로 구성되어있습니다.
 
 모든 소스코드는 유튜브 나도코딩님의 강의에 기반하여 작성되었습니다.
 
